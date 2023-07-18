@@ -55,7 +55,6 @@
     flex-direction: column;
    justify-content: center;
    text-align: center;
-  
 }
 .sec3-item{
     width: 100%;
@@ -74,6 +73,26 @@
 /* *================ */
 
 /* *Section 4  */
+.sec4-container{
+    flex-direction: column;
+   justify-content: center;
+   text-align: center;
+}
+.sec4-text{
+    width: 100%;
+}
+.sec4-img-container{
+    width: 100%;
+}
+.sec4-h2-1{
+    text-align: center;
+}
+.sec4-h2-2{
+    text-align: center;
+}
+.sec4-text p{
+    text-align: center;
+}
 /* *================ */
 
 /* *Section 5  */
