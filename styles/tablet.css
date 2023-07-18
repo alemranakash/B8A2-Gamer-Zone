@@ -1,0 +1,38 @@
+@media screen and (max-width : 768px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-menu{
+        margin-bottom: 30px;
+    }
+/* *Section 1  */
+.sec1-container{
+    flex-direction: column-reverse;
+}
+.sec1-text{
+    justify-content: center;
+    width: 100%;
+}
+.sec1-img{
+    width: 100%;
+}
+/* *================ */
+
+/* *Section 1  */
+/* *================ */
+
+/* *Section 1  */
+/* *================ */
+
+/* *Section 1  */
+/* *================ */
+
+/* *Section 1  */
+/* *================ */
+
+/* *Section 1  */
+/* *================ */
+
+/* *Section 1  */
+/* *================ */
+}

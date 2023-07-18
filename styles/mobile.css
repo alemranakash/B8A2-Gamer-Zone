@@ -1,0 +1,87 @@
+@media screen and (max-width : 576px) {
+    .nav-container{
+        flex-direction: column;
+    }
+.nav-menu{
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+/* *Section 1  */
+.sec1-container{
+    flex-direction: column-reverse;
+    justify-content: center;
+   
+}
+.sec1-text{
+    width: 100%;
+    
+}
+.sec1-img{
+    width: 100%;
+}
+.sec1-btn-con {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    justify-content: space-around;
+}
+
+
+/* *================ */
+
+/* *Section 2  */
+.sec2-container{
+    flex-direction: column;
+    justify-content: center;
+}
+.sec2-text{
+    text-align: center;
+    width: 100%;
+}
+.sec2-img{
+    width: 100%;
+}
+.sec2-text h2{
+    text-align: center;
+}
+.sec2-text p{
+    text-align: center;
+}
+/* *================ */
+
+/* *Section 3  */
+.sec3-container{
+    flex-direction: column;
+   justify-content: center;
+   text-align: center;
+  
+}
+.sec3-item{
+    width: 100%;
+   
+}
+.sec3-item img{
+    width: 350px;
+}
+.sec3-container p{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px; /* 150% */
+}
+
+/* *================ */
+
+/* *Section 4  */
+/* *================ */
+
+/* *Section 5  */
+/* *================ */
+
+/* *Section 6  */
+/* *================ */
+
+/* *Section 7  */
+/* *================ */
+}
