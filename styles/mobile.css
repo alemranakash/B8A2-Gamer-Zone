@@ -6,6 +6,19 @@
     flex-direction: column;
     margin-bottom: 30px;
 }
+/* ?============== */
+nav{
+   
+    margin: 0 auto;
+    
+}
+
+
+
+/* ?============== */
+
+
+
 
 /* *Section 1  */
 .sec1-container{
@@ -15,8 +28,9 @@
 }
 .sec1-text{
     width: 100%;
-    
+    text-align: center;
 }
+
 .sec1-img{
     width: 100%;
 }
@@ -68,6 +82,9 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 20px; /* 150% */
+}
+.hover-item{
+    width: 85%;
 }
 
 /* *================ */
