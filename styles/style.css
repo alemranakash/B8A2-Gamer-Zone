@@ -61,14 +61,16 @@ font-weight: 500;
     padding:10px 15px;
     border-radius: 5px;
 }
-.fa-brands{
+.nav-btn > .fa-brands{
 font-size: 15px;
 padding: 5px;
 }
 #youtube{
     color: red;
 }
-
+#tiktok{
+    color: #0B0223;
+}
 
 /* *============================================== */
 
@@ -242,6 +244,43 @@ margin-top: 20px;
     font-weight: 500;
     line-height: 30px; /* 150% */
 }
+.sec3-hover{
+    position: relative;
+}
+.hover-item > li{
+    font-size: 30px;
+    list-style: none;
+}
+.hover-item > p{
+    text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+color: #FF42A5;
+}
+.hover-item{
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: black;
+    opacity: 0.8;
+    width: 100%;
+  border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    visibility: hidden;
+}
+.sec3-hover:hover .hover-item{
+    visibility: visible;
+}
+
 
 /* *=================== */
 
@@ -392,6 +431,7 @@ text-transform: uppercase;
     margin: 0 auto;
 }
 .sec7-container{
+    margin: 50px 0px;
     display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -400,7 +440,96 @@ text-transform: uppercase;
 
 .sec7-item{
     display: flex;
-    border: 2px solid black;
-   border-radius: 50px;
+    align-items: center;
+    margin: 6px;
+    padding: 2px 5px;
+    text-align: center;
+    border-radius: 50px;
+background: #FFF;
+}
+.sec7-item:hover{
+    border: 1px solid #FF42A5 ;
+    cursor: pointer;
+}
+.sec7-item p:hover{
+color: #FF42A5;
+}
+.sec7-item img{
+    width: 40px;
+}
+.sec7-item p{
+    color: #0B0223;
+font-size: 15px;
+font-weight: 600;
 }
 /* *=================== */
+
+
+/* *footer */
+footer{
+    background: #0B0223;
+}
+.footer-container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.footer-logo{
+   padding-top: 50px;
+   padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.game{
+    color: white;
+    text-align: center;
+font-size: 45px;
+font-weight: 700;
+}
+.footer-main-p{
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    align-items: center;
+    
+}
+.footer-main-p p{
+    color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 600;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 0px;
+    gap: 20px;
+}
+.fa-brands{
+    color: white;
+    font-size: 40px;
+}
+.footer-2nd-p{
+    display: flex;
+    justify-content:center ;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+.footer-2nd-p p{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+.last-p{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500; 
+    padding-bottom: 50px; 
+}
+/* *==================== */

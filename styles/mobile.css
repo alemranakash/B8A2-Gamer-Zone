@@ -138,6 +138,50 @@
 /* *================ */
 
 /* *Section 7  */
-
+.sec7-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.sec7-item{
+    
+}
+.sec7-item img{
+    width: 20px;
+}
+.sec7-item p{
+    color: #0B0223;
+font-size: 8px;
+font-weight: 600;
+}
 /* *================ */
+
+/* *footer */
+.footer-main-p{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.footer-main-p p{
+font-size: 15px;
+}
+.footer-icon{
+    margin: 0 auto;
+    display: grid;
+    width: fit-content;
+    text-align: center;
+    justify-self: center;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.fa-brands{
+    font-size: 30px;
+    padding:0px 80px;
+}
+.footer-2nd-p{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 20px;
+}
+/* *==================== */
 }
